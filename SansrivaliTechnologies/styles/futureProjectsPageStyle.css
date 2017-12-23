@@ -1,0 +1,96 @@
+body {
+    background: url("../images/cityRoadAtNight.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+    font: 20px normal, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 1);
+    color: goldenrod;
+    font: 75px bold, "Times New Roman", serif;
+    text-align: center;
+    background-size: cover;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(1, 1, 1, 0.8);
+}
+
+
+nav ul li {float: left;}
+
+
+nav ul li a {
+    display: block;
+    padding: 14px 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-right: 2px solid silver;
+}
+
+
+nav ul li a:link, nav ul li a:visited {text-decoration: none;}
+
+
+nav ul li a:hover, nav ul li a:active {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.paragraphSection {
+    position: relative;
+    max-width: 90%;
+    max-height: 50%;
+    background-color: rgba(1, 1, 1, 0.6);
+    margin: 2% auto;
+    padding: 10px 5px;
+    font: 30px "Times New Roman", serif;
+    color: white;
+}
+
+
+h1 {
+    display: inline-block;
+    margin: 8% 5% 2%;
+    background-color: rgba(1, 1, 1, 0.6);
+}
+
+
+.paragraph {
+    display: inline-block;
+    position: relative;
+    max-width: 45%;
+    max-height: 50%;
+    margin: 2% 2%;
+    text-align: center;
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+
+footer {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    background-color: rgba(1, 1, 1, 0.8);
+    background-size: cover;
+    margin-top: 500px;
+    color: white;
+    font: 20px bold, "Times New Roman", serif;
+    text-align: center;
+}

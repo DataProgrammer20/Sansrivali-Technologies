@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sansrivali Technologies Sign Up" />
+    <meta name="keywords" content="Drone, Target, Technology" />
+    <link rel="icon" href="../images/LogoP2.png" />
+    <link rel="stylesheet" href="../styles/signUpPageStyle.css" />
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>Sansrivali Technologies</header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Sansrivali Technologies</a></li>
+            <li><a href="../heimdall/home.html">Project Heimdall</a></li>
+            <li><a href="futureProjects.html">Future Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signIn.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <section class="formSect">
+        <!--
+        Must acquire PHP Interpreter before using
+        <form method="post" action"../PHP/signUpService.php">
+        -->
+        <form>
+            First Name:<br>
+            <input type="text" title="firstName" name="firstName" value="" autofocus /><br>
+            Last Name:<br>
+            <input type="text" title="lastName" name="lastName" value="" /><br>
+            Email:<br>
+            <input type="email" title="email" name="email" value="" /><br>
+            State:<br>
+            <input type="text" title="state" name="state" value="" /><br>
+            City:<br>
+            <input type="text" title="city" name="city" value="" /><br>
+            Address:<br>
+            <input type="text" title="address" name="address" value="" /><br>
+            Username:<br>
+            <input type="text" title="username" name="username" value="" /><br>
+            Password:<br>
+            <input type="password" title="password" name="password" value="" /><br>
+            <input type="submit" title="submit" name="submit" value="Submit"
+                   onclick="alert('You have submitted the form!')" />
+            <input type="reset" title="reset" name="reset" value="Reset"
+                   onclick="alert('You have Pressed the Reset Button!')" />
+        </form>
+    </section>
+    <footer>
+        <section>Demo &copy 2017 Sansrivali Technologies</section>
+        <section>Phone: 1-506-999-5949</section>
+        <section>Email: SansrivaliTechnologies@something.com</section>
+    </footer>
+</body>
+</html>

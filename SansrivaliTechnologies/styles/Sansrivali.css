@@ -1,0 +1,142 @@
+body {
+    background: url("../images/cityAtNight.jpeg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+    font: 20px normal, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 15px;
+    background-color: rgba(97, 101, 99, 0.8);
+    /*color: goldenrod;*/
+    font: 75px bold, "Times New Roman", serif;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#menuBar #menuBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(1, 1, 1, 0.8);
+}
+
+
+#menuBar #menuBarList .menuBarItem {
+     float: left;
+}
+
+
+#menuBar #menuBarList .menuBarItem .menuBarLink {
+     display: block;
+     padding: 14px 30px;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     border-right: 2px solid silver;
+}
+
+
+#content {
+    margin-top: 10px;
+}
+
+
+h1, h2 {
+    background-color: rgba(1, 1, 1, .6);
+    background-size: 10%;
+    margin-top: 70px;
+    display: block;
+    max-width: 30%;
+    position: relative;
+    left: 80px;
+    text-align: center;
+    font: italic bold 45px "Times New Roman", serif;
+    color: white;
+}
+
+
+.paragraphLeft {
+    background-color: rgba(1, 1, 1, .6);
+    max-width: 45%;
+    margin-top: 30px;
+    left: 80px;
+    display: block;
+    position: relative;
+    font: 30px "Times New Roman", serif;
+    text-indent: 50px;
+    color: white;
+}
+
+
+#centerContainer {
+    display: block;
+    margin-bottom: 100px;
+    background-color: rgba(1, 1, 1, .6);
+    max-width: 90%;
+    left: 80px;
+    margin-top: 30px;
+    position: relative;
+    font: 30px "Times New Roman", serif;
+    color: white;
+}
+
+
+#CenterPara1 {
+    margin-left: 18px;
+    display: inline-block;
+    max-width: 45%;
+    position: relative;
+}
+
+
+#CenterPara2 {
+    left: 10%;
+    display: inline-block;
+    max-width: 45%;
+    position: relative;
+}
+
+
+#menuBar #menuBarList .menuBarItem .menuBarLink:link {
+    text-decoration: none;
+}
+
+
+#menuBar #menuBarList .menuBarItem .menuBarLink:visited {
+    text-decoration: none;
+}
+
+
+#menuBar #menuBarList .menuBarItem .menuBarLink:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+
+#menuBar #menuBarList .menuBarItem .menuBarLink:active {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+
+footer {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    background-color: rgba(1, 1, 1, 0.8);
+    background-size: cover;
+    margin-top: 10px;
+    color: white;
+    font: 20px bold, "Times New Roman", serif;
+    text-align: center;
+}
