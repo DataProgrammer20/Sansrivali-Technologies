@@ -13,11 +13,6 @@ $passwordError = "";
 $usernamePattern = "/^[a-zA-Z1-9]*$/";
 $passwordPattern = "";
 
-//Things to research
-//PHP RegExp
-//PHP Tutorials
-//PHP $_POST failure
-
 function testInput($dataInput) {
     $dataInput = trim($dataInput);
     $dataInput = stripslashes($dataInput);
